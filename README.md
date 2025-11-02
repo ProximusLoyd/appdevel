@@ -14,14 +14,14 @@ Navigate to the project root and run:
 cargo build --release
 ```
 
-The executable will be at `target/release/appdevel`.
+The executable will be at `target/release/ls_table_rs`.
 
 ### Usage
 
 To run the compiled program:
 
 ```bash
-./target/release/appdevel
+./target/release/ls_table_rs
 ```
 
 ## Python Version
