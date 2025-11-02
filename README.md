@@ -1,14 +1,14 @@
-# appdevel
+# LS_Table
 
-This project provides scripts to list directory contents in a detailed, table-like format. It includes implementations in both Rust and Python.
+This project have commands scripted to list directory contents in a detailed, table format like nushell. It includes implementations for both Rust and Python.
 
 ## Rust Version
 
 ### Building
 
-To build the Rust project, you need Rust and Cargo. You can install them from [rust-lang.org](https://www.rust-lang.org/tools/install).
+To build the Rust project, you need Rust and Cargo. You can install them from [rust-lang.org](https://www.rust-lang.org/tools/install) or using appropriate package managers.
 
-Navigate to the project root and run:
+tu buid it from source in rust simply try
 
 ```bash
 cargo build --release
@@ -18,7 +18,8 @@ The executable will be at `target/release/ls_table_rs`.
 
 ### Usage
 
-To run the compiled program:
+To run the precompiled rust program:
+download ls_table_rs or prebuilt output from source
 
 ```bash
 ./target/release/ls_table_rs
