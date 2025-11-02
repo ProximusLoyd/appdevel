@@ -1,0 +1,9 @@
+[package]
+name = "appdevel"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chrono = "0.4"
+unicode-width = "0.1.9"
+unicode-segmentation = "1.8.0"
