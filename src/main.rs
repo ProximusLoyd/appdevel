@@ -91,11 +91,6 @@ fn get_file_info(entry: &fs::DirEntry, show_perms: bool) -> Option<Vec<String>> 
         let size = metadata.len();
         let modified_time: SystemTime = metadata.modified().unwrap_or(UNIX_EPOCH);
         let datetime: DateTime<Local> = modified_time.into();
-        let perms = if show_perms {
-            perms_to_string(mode)
-        } else {
-            "".to_string()
-        };
         let file_name = entry.file_name().to_string_lossy().to_string();
 
         let (file_type, glyph, color) = if metadata.is_dir() {
