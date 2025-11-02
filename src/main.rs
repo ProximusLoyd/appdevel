@@ -10,7 +10,7 @@ use unicode_segmentation::UnicodeSegmentation;
 
 
 const COLORS: &[(&str, &str)] = &[
-    ("dir", "\x1b[95m"), 
+    ("dir", "\x1b[32m"), 
     ("file", "\x1b[94m"),
     ("link", "\x1b[96m"),
     ("header", "\x1b[92m"), 

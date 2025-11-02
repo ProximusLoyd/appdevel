@@ -19,10 +19,10 @@ except ImportError:
         return width
 
 COLORS = {
-    "dir": "\033[35m", 
+    "dir": "\033[32m", 
     "file": "\033[34m",
     "link": "\033[36m",
-    "header": "\033[32m", 
+    "header": "\033[92m", 
     "reset": "\033[0m",
 }
 
