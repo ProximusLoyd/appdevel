@@ -8,7 +8,7 @@ This project have commands scripted to list directory contents in a detailed, ta
 
 To build the Rust project, you need Rust and Cargo. You can install them from [rust-lang.org](https://www.rust-lang.org/tools/install) or using appropriate package managers.
 
-tu buid it from source in rust simply try
+to buid it from source in rust, simply try in the project root directory that had been git cloned
 
 ```bash
 cargo build --release
